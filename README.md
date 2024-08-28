@@ -14,7 +14,7 @@ This script automates filling out and submitting a registration form on the Mitt
 
 Before running the script, ensure you have the following:
 
-1. **Python**: The script is written in Python. Could you make sure python 3. x is installed on your system? You can download Python from [pythPython](httpsPython.python.org/).
+1. **Python**: The script is written in Python. Could you make sure python 3. x is installed on your system? You can download Python from [pythPython](https://www.python.org/downloads/).
 
 2. **Selenium**: The Selenium library for Python is required using pip:
 
