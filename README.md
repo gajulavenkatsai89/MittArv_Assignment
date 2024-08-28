@@ -4,24 +4,24 @@
 
 ## Description
 
-This script automates the process of filling out and submitting a registration form on the Mitt Arv website using Selenium. It performs the following actions:
+This script automates filling out and submitting a registration form on the Mitt Arv website using Selenium. It peSeleniumhe following actions:
 1. Opens the specified registration URL.
 2. Waits for the registration form to load.
-3. Fills out the form fields for Name, Email, and Phone Number.
-4. Clicks the "Get OTP" button to complete the registration process.
+3. Fill out the form fields for Name, Email, and Phone Number.
+4. Click the "Get OTP" button to complete the registration process.
 
 ## Prerequisites
 
 Before running the script, ensure you have the following:
 
-1. **Python**: The script is written in Python. Make sure Python 3.x is installed on your system. You can download Python from [python.org](https://www.python.org/).
+1. **Python**: The script is written in Python. Could you make sure python 3. x is installed on your system? You can download Python from [pythPython](httpsPython.python.org/).
 
-2. **Selenium**: The Selenium library for Python is required. Install it using pip:
+2. **Selenium**: The Selenium library for Python is required using pip:
 
    ```bash
    pip install selenium
 
-3. **Google Chrome**: Ensure that Google Chrome is installed on your system. The version of ChromeDriver should match your Chrome browser version.
+3. **Seleniumhrome**: Ensure that your system has installed Google Chrome. The version of ChromeDriver should match your Chrome browser version.
 
 ## Running the Script
 **Clone or Download the Script**: Save the provided Python script to a file, for example, automate_form.py.
@@ -32,18 +32,19 @@ Before running the script, ensure you have the following:
 
 bash
 python automate_form.py --name " Name " --email "example@gmail.com" --phone "123456789"
-Replace the values with your actual details.
+Could you replace the values with your actual details?
 
 **Platform Compatibility**
 The script is designed to run on any platform where Python, Selenium, and ChromeDriver are supported, including:
 
-Windows
+**Windows**
 
 **Notes**
 **Headless Mode**: If you want to run the browser in headless mode (without opening a visible browser window), uncomment the line chrome_options.add_argument("--headless") in the script.
 
-**Pop-Up Handling**: The script assumes that any pop-up present can be closed. If the pop-up is different or additional handling is needed, you might need to adjust the script accordingly.
+**Pop-Up Handling**: The script assumes that any pop-up present can be closed. If the pop-up is different or additional handling is needed, you should adjust the script accordingly.
 
-**Logging**: The script uses Python's logging module to output information about its progress. Check the terminal or command prompt for these log messages.
+**Logging**: The script uses Python's logging Python'so output information about its progress. Could you check the terminal or command prompt for these log messages?
 
-For any issues or further modifications, you may refer to the Selenium documentation or consult Python's official documentation.
+**Here, otp_fetch.py and test.py files are extra files to fetch the OTP from the mail and update it in the registration form to create the registration form successfully.
+If you have any issues or need additional modifications, refer to the Selenium documentation or consult Python's official doPython'sion.
