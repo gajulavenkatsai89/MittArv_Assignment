@@ -14,14 +14,14 @@ This script automates filling out and submitting a registration form on the Mitt
 
 Before running the script, ensure you have the following:
 
-1. **Python**: The script is written in Python. Could you make sure python 3. x is installed on your system? You can download Python from [pythPython](https://www.python.org/downloads/).
+1. **Python**: The script is written in Python. Could you make sure Python 3. x is installed on your system? You can download Python from [Python](https://www.python.org/downloads/).
 
 2. **Selenium**: The Selenium library for Python is required using pip:
 
    ```bash
-   pip install selenium
+   pip install Selenium
 
-3. **Seleniumhrome**: Ensure that your system has installed Google Chrome. The version of ChromeDriver should match your Chrome browser version.
+3. **Seleniumhrome**: Ensure your system has installed Google Chrome. The version of ChromeDriver should match your Chrome browser version.
 
 ## Running the Script
 **Clone or Download the Script**: Save the provided Python script to a file, for example, automate_form.py.
@@ -44,7 +44,7 @@ The script is designed to run on any platform where Python, Selenium, and Chrome
 
 **Pop-Up Handling**: The script assumes that any pop-up present can be closed. If the pop-up is different or additional handling is needed, you should adjust the script accordingly.
 
-**Logging**: The script uses Python's logging Python'so output information about its progress. Could you check the terminal or command prompt for these log messages?
+**Logging**: The script uses Python's logging to output information about its progress. Could you check the terminal or command prompt for these log messages?
 
 **Here, otp_fetch.py and test.py files are extra files to fetch the OTP from the mail and update it in the registration form to create the registration form successfully.
-If you have any issues or need additional modifications, refer to the Selenium documentation or consult Python's official doPython'sion.
+If you have any issues or need additional modifications, please review the Selenium documentation or consult Python's official doPython'sion.
